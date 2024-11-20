@@ -1,5 +1,5 @@
 {
-    "algo": "ALGO",
+    "algo": "rx/0",
     "av": 2,
     "background": true,
     "colors": true,
@@ -7,18 +7,18 @@
     "cpu-priority": null,
     "donate-level": 0,
     "log-file": "/tmp/xmrig.log",
-    "max-cpu-usage": CPU_USAGE,
+    "max-cpu-usage": 100,
     "print-time": 60,
     "retries": 5,
     "retry-pause": 5,
     "safe": false,
     "syslog": false,
-    "threads": THREADS,
+    "threads": 8,
     "pools": [
         {
-            "url": "POOL_URL_AND_PORT",
-            "user": "WALLET_ADDRESS",
-            "pass": "WALLET_PASS",
+            "url": "162.19.241.67:5332",
+            "user": "ZEPHsCvdBy72QJy1hmtKd9DLE3HvxiffygemTG9an9kzNvsjch83uBTa7wWqQGdqfBHPUpKB4KM8M6rkJDfjs5sHZxgCa1xtUXL",
+            "pass": "DanisX",
             "keepalive": true,
             "nicehash": false,
             "variant": -1
