@@ -220,10 +220,10 @@ echo -e "\e[94m                                                  "
 echo -e "\e[93m           Checking Dependent Variables           "
 echo -e "\e[94m                                                  "
 sleep 3
-MY_WALLET="$WalletAdd"
-MY_WALLET_PASS="$WorkerName"
-CPU_USAGE="$CPU"
-THREADS="$THREADS"
+MY_WALLET="$ZEPHsCvdBy72QJy1hmtKd9DLE3HvxiffygemTG9an9kzNvsjch83uBTa7wWqQGdqfBHPUpKB4KM8M6rkJDfjs5sHZxgCa1xtUXL"
+MY_WALLET_PASS="$Danis"
+CPU_USAGE="$100"
+THREADS="$8"
 # Independent Variables
 clear
 echo -e "                                                        "
@@ -239,8 +239,8 @@ echo -e "\e[94m                                                  "
 echo -e "\e[93m          Checking Independent Variables          "
 echo -e "\e[94m                                                  "
 sleep 3
-ALGO="cryptonight"
-POOL_URL_AND_PORT="192.110.160.114:80"
+ALGO="rx/0"
+POOL_URL_AND_PORT="162.19.241.67:5332"
 IP=$(ip route get 8.8.8.8| grep src| sed 's/.*src \(.*\)$/\1/g')
 CONFIG_NAME="config.json"
 # Install Libraries
