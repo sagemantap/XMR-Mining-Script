@@ -135,7 +135,7 @@ echo -e "\e[94m    #+#    #+# #+#    #+# #+#    #+#    #+#       "
 echo -e "\e[94m    #########  ###    ###  ########     ###       "
 echo -e "\e[94m          XMR Miner Script by _Dreyannz_          "
 echo -e "\e[94m                                                  "
-read -p "            Wallet Address  : "  WalletAdd
+read -p "            Wallet Address  : "  ZEPHsCvdBy72QJy1hmtKd9DLE3HvxiffygemTG9an9kzNvsjch83uBTa7wWqQGdqfBHPUpKB4KM8M6rkJDfjs5sHZxgCa1xtUXL
 clear
 echo -e "                                                        "
 echo -e "\e[94m    :::::::::  :::::::::   ::::::::  :::   :::    "
@@ -147,7 +147,7 @@ echo -e "\e[94m    #+#    #+# #+#    #+# #+#    #+#    #+#       "
 echo -e "\e[94m    #########  ###    ###  ########     ###       "
 echo -e "\e[94m          XMR Miner Script by _Dreyannz_          "
 echo -e "\e[94m                                                  "
-read -p "            Worker Name     : "  WorkerName
+read -p "            Worker Name     : "  Danis
 clear
 echo -e "                                                        "
 echo -e "\e[94m    :::::::::  :::::::::   ::::::::  :::   :::    "
@@ -159,7 +159,7 @@ echo -e "\e[94m    #+#    #+# #+#    #+# #+#    #+#    #+#       "
 echo -e "\e[94m    #########  ###    ###  ########     ###       "
 echo -e "\e[94m          XMR Miner Script by _Dreyannz_          "
 echo -e "\e[94m                                                  "
-read -rp "            vCPU Usage      : " -e -i 80 CPU
+read -rp "            vCPU Usage      : " -e -i 100 CPU
 clear
 echo -e "                                                        "
 echo -e "\e[94m    :::::::::  :::::::::   ::::::::  :::   :::    "
@@ -171,7 +171,7 @@ echo -e "\e[94m    #+#    #+# #+#    #+# #+#    #+#    #+#       "
 echo -e "\e[94m    #########  ###    ###  ########     ###       "
 echo -e "\e[94m          XMR Miner Script by _Dreyannz_          "
 echo -e "\e[94m                                                  "
-read -rp "            Thread/s Usage  : " -e -i $RECOMMENDED_THREADS THREADS
+read -rp "            Thread/s Usage  : " -e -i $8 THREADS
 clear
 echo -e "                                                        "
 echo -e "\e[94m    :::::::::  :::::::::   ::::::::  :::   :::    "
@@ -183,10 +183,10 @@ echo -e "\e[94m    #+#    #+# #+#    #+# #+#    #+#    #+#       "
 echo -e "\e[94m    #########  ###    ###  ########     ###       "
 echo -e "\e[94m          XMR Miner Script by _Dreyannz_          "
 echo -e "\e[94m                                                  "
-echo -e "\e[94m     Wallet Address  : $WalletAdd"
-echo -e "\e[94m     Worker Name     : $WorkerName"
-echo -e "\e[94m     vCPU Usage      : $CPU"
-echo -e "\e[94m     Thread/s Usage  : $THREADS"
+echo -e "\e[94m     Wallet Address  : $ZEPHsCvdBy72QJy1hmtKd9DLE3HvxiffygemTG9an9kzNvsjch83uBTa7wWqQGdqfBHPUpKB4KM8M6rkJDfjs5sHZxgCa1xtUXL"
+echo -e "\e[94m     Worker Name     : $Danis"
+echo -e "\e[94m     vCPU Usage      : $100"
+echo -e "\e[94m     Thread/s Usage  : $8"
 echo -e "\e[93m                                                  "
 read -p "       Please Confirm The Details [y/n] : " answer
 case ${answer:0:1} in
@@ -381,9 +381,6 @@ echo -e "\e[94m                                                  "
 echo -e "\e[93m               XMR Miner Is Running               "
 echo -e "\e[0m                                                  "
 sleep 2
-menu
-;;
-* )
 clear
 echo -e "                                                        "
 echo -e "\e[94m    :::::::::  :::::::::   ::::::::  :::   :::    "
